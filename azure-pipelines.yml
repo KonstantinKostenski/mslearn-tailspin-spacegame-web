@@ -5,7 +5,7 @@ pool:
   vmImage: 'Default'
   demands:
   - npm
-  - agent.name -equals MyAgentPool
+  - agent.name -equals MyLinuxAgent
 
 variables:
   buildConfiguration: 'Release'
